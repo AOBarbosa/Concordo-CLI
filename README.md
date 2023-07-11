@@ -62,11 +62,11 @@ LOGGED MENU
 - Para remover servidor, digite: 'enter-server <nome>'
 - Para entrar em um servidor, digite: 'remove-server <nome>'
 - Para sair de um servidor, digite: 'leave-server'
-- Para listar pessoas no servidor, digite: list-participants'
-- Para criar um canal, digite: create-channel <nome> <tipo>'
-- Para entrar em um canal do servidor, digite: list-channels'
-- Para listar os canais do servidor, digite: enter-channel <nome>'
-- Para desconectar do Concordo, digite: disconnect'
+- Para listar pessoas no servidor, digite: 'list-participants'
+- Para criar um canal, digite: 'create-channel <nome> <tipo>'
+- Para entrar em um canal do servidor, digite: 'list-channels'
+- Para listar os canais do servidor, digite: 'enter-channel <nome>'
+- Para desconectar do Concordo, digite: 'disconnect'
 Digite seu comando: 
 
 CHANNELS MENU

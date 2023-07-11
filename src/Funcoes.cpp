@@ -136,11 +136,11 @@ void loggedMenu()
                << BLUE << "- Para remover servidor, digite: " << RESET << YELLOW <<"'enter-server <nome>'\n" << RESET
                << BLUE << "- Para entrar em um servidor, digite: " << RESET << YELLOW <<"'remove-server <nome>'\n" << RESET
                << BLUE << "- Para sair de um servidor, digite: " << RESET << YELLOW <<"'leave-server'\n" << RESET
-               << BLUE << "- Para listar pessoas no servidor, digite: " << RESET << YELLOW <<"list-participants'\n" << RESET
-               << BLUE << "- Para criar um canal, digite: " << RESET << YELLOW <<"create-channel <nome> <tipo>'\n" << RESET
-               << BLUE << "- Para entrar em um canal do servidor, digite: " << RESET << YELLOW <<"list-channels'\n" << RESET
-               << BLUE << "- Para listar os canais do servidor, digite: " << RESET << YELLOW <<"enter-channel <nome>'\n" << RESET
-               << BLUE << "- Para desconectar do Concordo, digite: " << RESET << YELLOW <<"disconnect'\n" << RESET;
+               << BLUE << "- Para listar pessoas no servidor, digite: " << RESET << YELLOW <<"'list-participants'\n" << RESET
+               << BLUE << "- Para criar um canal, digite: " << RESET << YELLOW <<"'create-channel <nome> <tipo>'\n" << RESET
+               << BLUE << "- Para entrar em um canal do servidor, digite: " << RESET << YELLOW <<"'list-channels'\n" << RESET
+               << BLUE << "- Para listar os canais do servidor, digite: " << RESET << YELLOW <<"'enter-channel <nome>'\n" << RESET
+               << BLUE << "- Para desconectar do Concordo, digite: " << RESET << YELLOW <<"'disconnect'\n" << RESET;
 
   cout << PINK << "Digite seu comando: " << RESET;
 }
