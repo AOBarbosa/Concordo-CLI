@@ -1,0 +1,91 @@
+create-user julio.melo@imd.ufrn.br 12ab34cd Julio Melo
+create-user julio.melo@imd.ufrn.br 1233416523 Melo Julio
+create-user andre@email.com password Andre de Oliveira Barbosa
+create-user karol@hotmail.com senha Karol Matias
+create-user joe.doe@gmail.com hjkdsaadjksh Joe Doe
+create-user ze.ninguem@imd.ufrn.br senha213123 José Ninguém
+create-user joao@gmail.com 123456789 João Maria
+create-user augusto@gmail.com askl12kl89 José Augusto Barbosa
+login julio.engcomp@gmail.com 1326
+login julio.melo@imd.ufrn.br 12ab34cd
+create-server minha-casa
+create-server minha-casa
+create-server minha-casa55
+create-server servidor-bolado
+create-server gameplay-criminosa
+set-server-desc minha-casa Este servidor serve como minha casa, sempre estarei nele.
+set-server-desc minha-casa2 Este servidor serve como minha casa,sempre estarei nele
+set-server-desc minha-casa55 Este é o meu servidor de backup.
+set-server-invite-code servidor-bolado INVITE
+list-servers
+set-server-invite-code gameplay-criminosa
+enter-server servidor-bolado INVITE
+enter-server servidor-bolado senha-errada
+enter-server gameplay-criminosa
+disconect
+login andre@email.com password
+create-server jogatinas-da-madruga m4drug4
+create-server duvidas
+enter-server jogatinas-da-madruga m4drug4
+create-channel gameplay texto
+enter-channel gameplay
+send-message Alguem online para jogar?
+leave-channel
+enter-server duvidas
+create-channel duvidas texto
+enter-channel duvidas
+send-message Oi pessoal, estou disponível para tirar dúvidas hoje.
+send-message Qualquer coisa é so me chamar!
+leave-channel
+leave-server
+disconect
+login karol@email.com senha
+enter-server gameplay-criminosa
+list-participants
+create-channel casa-de-mae-joana texto
+create-channel canal-da-galera texto
+create-channel casa-de-mae-joana texto
+create-channel casa-de-mae-joana voz
+create-channel canal-da-galera voz
+create-channel casa-de-mae-joana voz
+list-channels
+enter-channel introspecção
+enter-channel casa-de-mae-joana
+send-message Oi pessoal alguém pode me ajudar?
+send-message Me ajuda no trabalho 3?
+list-messages
+leave-channel
+leave-server
+enter-server duvidas
+enter-channel duvidas
+send-message Estou com uma duvida: como faço para printar um hello, world em python?
+leave-channel
+leave-server
+disconect
+login joe.doe@gmail.com hjkdsaadjksh
+enter-server duvidas
+enter-channel duvidas
+send-message Quanto é 2+2?
+leave-channel
+enter-server jogatinas-da-madruga m4drug4
+enter-channel gameplay
+send-message Opa! To dentro, me chama ai!
+leave-channel
+leave-server
+disconect
+login andre@email.com password
+enter-server gameplay-criminosa
+enter-channel casa-de-mae-joana
+send-message Oi, eu posso! O que foi?
+send-message Ajudo sim! Manda a duvida ai?
+list-messages
+leave-channel
+enter-server duvidas
+enter-channel duvidas
+send-message Para printar hello,world em python, basta criar um arquivo python app.py, e nele escrever print(hello, word) e depois rodar o programa!
+send-message respondendo a outra pergunta, 2 + 2 = 4.
+list-messages
+leave-channel
+leave-server
+disconect
+quit
