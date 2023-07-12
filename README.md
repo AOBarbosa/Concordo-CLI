@@ -35,9 +35,9 @@ After compiling the code, you'll have two options:
 ./program < script.txt
 ```
 
-<!-- ### Documentation
-If you have installed Doxygen, run `doxygen` on the root directory. Then open
-`./docs/html/index.html` with a modern browser. -->
+### Documentation
+
+If you have installed Doxygen, run `doxygen` on the root directory. Then open `./docs/html/index.html` with your browser.
 
 ### User Interface
 
@@ -79,9 +79,9 @@ Digite o comando:
 
 Once you start the program you'll face the interfaces above. The first time the user add or change data in the program two new files will be created.
 
-- usuarios.txt
+- `usuarios.txt`
 
-- servidores.txt
+- `servidores.txt`
 
 Those files will store all data about the users and the servers, respectively.
 
@@ -89,13 +89,13 @@ Every time data gets updated or changed in the program those two files will be u
 
 The files will be organized in the following format:
 
-- usuarios.txt
+- `usuarios.txt`
 
   - The first line must have an integer representing the amount of users;
 
   - In the following lines, for each user there must be 4 lines, one for each user attribute. In this order: id, name, email, password.
 
-- servidores.txt
+- `servidores.txt`
 
   - The first line must have an integer representing the amount of servers;
 
