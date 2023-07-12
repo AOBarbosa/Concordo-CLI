@@ -7,13 +7,13 @@ Concordo is a simple CLI clone of Discord made for the third project of the cour
 First, clone the project using the following command. Then enter the Concordo file.
 
 ```bash
-git clone https://github.com/AOBarbosa/Concordo.git
+git clone https://github.com/AOBarbosa/Concordo-CLI.git
 ```
 
 ### Compilation
 
 ```bash
-cd Concordo
+cd Concordo-CLI
 cd build
 cmake ..
 make
@@ -134,6 +134,8 @@ The files will be organized in the following format:
 ## Limitations
 
 - The program cannot load previous data.
+
+- When entering a channel, enters the first channel that matchs the name in th input. Even if exists another channel with a different type and same name.
 
 - The main problem with Concordo, it's the memory leaks, wich i couldn't fix.
 
